@@ -139,6 +139,9 @@ input {
 	margin-right: 3%;
 	
 }
+iframe{
+		width: 100%;
+	}
 footer{
 	text-align: center;
 	background-color:#1C1821;
@@ -147,9 +150,22 @@ footer{
 	margin-top: 2%;
 	font-family: 'Open Sans';
 }
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {
+	.dp-none1{
+		display: none;
+	}
+	.icon2{
+		font-size: 2em;
+    	color: white;
+	}
+	.textoi {
+    color: white;
+    font-family: 'Open Sans';
+    font-style: italic;
+    margin: -5%;
 }
 
 @media screen and (max-width: 600px) {
